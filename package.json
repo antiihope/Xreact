@@ -1,0 +1,9 @@
+{
+  "version": "1.0.1",
+  "name": "xreact",
+  "main": "index.js",
+  "repository": "hazem223/xreact",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
