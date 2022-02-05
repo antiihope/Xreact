@@ -1,9 +1,23 @@
 {
-  "version": "1.0.1",
-  "name": "xreact",
+  "version": "1.0.5",
+  "name": "x8react",
   "main": "index.js",
-  "repository": "hazem223/xreact",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazem223/xreact.git"
+  },
   "dependencies": {
     "react": "^17.0.2"
-  }
+  },
+  "description": "using if Statment as attributes",
+  "bugs": {
+    "url": "https://github.com/hazem223/xreact/issues"
+  },
+  "homepage": "https://github.com/hazem223/xreact#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
+  },
+  "author": "hazem33",
+  "license": "ISC"
 }

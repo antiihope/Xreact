@@ -10,6 +10,8 @@ const createElement = (...args) => {
   if (args[1] && args[1].hasOwnProperty('if')) {
     if (!args[1].if) {
       return null;
+    } else {
+      delete args[1].if;
     }
   }
   var ele = originalCreateElement(...args);
