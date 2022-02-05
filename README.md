@@ -1,4 +1,4 @@
-# Xreact
+# X8react
 
 # Rendering elements conditionally in react
 
@@ -11,7 +11,7 @@ import React from 'x8react';
 
 function Home() {
   return (
-    <div>
+    <>
 
       <div if={Loading}> // render only if Loading is true
         <Loading />
@@ -21,7 +21,7 @@ function Home() {
         {...Content}
         </div>
 
-    </div>
+    </>
   );
 }
 
