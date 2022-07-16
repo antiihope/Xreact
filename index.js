@@ -1,4 +1,10 @@
-import React from 'react';
+// import React from 'react';
+//@ts-ignore
+global.performance = global.performance || {
+  now: () => new Date().getTime(),
+};
+const React = require('react');
+
 
 const NewReact = {};
 
@@ -20,4 +26,4 @@ const createElement = (...args) => {
 
 NewReact.createElement = createElement;
 
-export default NewReact;
+module.exports = NewReact;
